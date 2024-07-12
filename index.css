@@ -175,7 +175,7 @@ button {
   border-radius: 4px;
   font-size: large;
   font-family: "American Captain";
-  padding: 6px 16px;
+  padding: 2px 16px;
   border: 2px solid;
   border-bottom: 4px solid;
   transition: all 0.2s ease-in-out;
@@ -183,6 +183,6 @@ button {
 }
 .btn-wrapper button:hover{
     border: 3px solid;
-    padding: 6px 20px;
+    padding: 4px 20px;
 }
 /* animation */
