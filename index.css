@@ -1,0 +1,170 @@
+/* @import url("https://fonts.cdnfonts.com/css/american-captain-2"); */
+@import url("https://db.onlinewebfonts.com/c/a6bec1c4ef2d2fd1bac5a6951f5f32a3?family=American+Captain");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fe1818;
+    font-family: "American Captain";
+
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  width: 100%;
+  height: 10vh;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.left-box {
+  height: 100%;
+  width: auto;
+}
+.left-box a {
+  height: 100%;
+  width: auto;
+}
+.left-box a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.right-box {
+    height: 62%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.login-btn {
+color: #000;
+    font-family: "American Captain";
+    font-size: larger;
+    letter-spacing: 1.2px;
+    font-style: normal;
+    width: 100%;
+    font-weight: 600;
+    line-height: normal;
+    /* padding: 2% 9%; */
+    background: #fff;
+    border: 2px solid;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.hero-section{
+    height: 100vh;
+    width: 100%;
+    /* background: url('./public/star-page-3@2x.png') ; */
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    position: relative;
+    /* padding-top: 10vh; */
+}
+.bg-img{
+    height: 110%;
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    z-index: -99;
+
+}
+.bg-img img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -5%;
+    z-index: -99;
+}
+
+.bg-img-2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-img-2 img{
+    /* height: 64%; */
+    width: 48%;
+    animation: bounce2 1s ease-in-out alternate infinite;
+
+}
+
+    @keyframes bounce2 {
+        from{
+            transform: translateY(0);
+        }
+        to{
+            transform: translateY(24px);
+        }
+    }
+
+.bg-text-large{
+    position: absolute;
+    top: 28%;
+    /* left: 30%%; */
+    font-size: 440px;
+    color: white;
+    font-weight: 900;
+    z-index: -9;
+    -webkit-text-stroke: #000;
+    -webkit-text-stroke-width: 4px;
+}
+.btns{
+    position: absolute;
+    bottom: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+    font-size: large;
+    height: 8vh;
+}
+.btn-wrapper{
+    display: flex;
+    background: #FFF;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    height: 80%;
+    border-radius: 8px;
+    gap: 32px;
+    border: 2px solid;
+}
+.cta-1-btn{
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-family: "American Captain";
+    border: 2px solid;
+    height: 80%;
+    font-size: large;
+}
+.btn-wrapper button{
+    background: #FFAA6F;
+    border-radius: 4px;
+    font-size: large;
+    font-family: "American Captain";
+    padding: 6px 16px;
+}
